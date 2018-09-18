@@ -1,0 +1,13 @@
+package com.example.couacream;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class CourseSelect extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_course_select);
+    }
+}
